@@ -1,1 +1,10 @@
 /* Ini CSS */
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/logo.png.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
