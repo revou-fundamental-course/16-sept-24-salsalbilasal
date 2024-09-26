@@ -60,5 +60,5 @@ function showSlide(index) {
     console.log(indexSlide);
 }
 
-//Autorun Banner Photo
+//Autorun Banner
 setInterval(() => nextSlide(1), 2000);
