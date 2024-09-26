@@ -27,7 +27,7 @@
         <!-- Home -->
         <section id="section-home">
             <header>
-                <h1>Hi User, Welcome to My Website</h1>
+                <h1 class="inline">Hi <h1 class="inline" id="user-name">User,</h1> Welcome to My Website</h1>
             </header>
 
             <article>
@@ -78,7 +78,25 @@
 
             <section>
                 <!-- Form -->
-                <form></form>
+                <form>
+                    <div>
+                        <label for="input-name">Nama:</label>
+                        <input type="text" id="input-name" />
+                        <br>
+                        <label for="birth-date">Tanggal Lahir:</label>
+                        <input type="date" name="birth-date"/>
+                        <br>
+                        <label for="gender">Jenis Kelamin:</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Laki-Laki</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Perempuan</label>
+                        <br>
+                        <label class="grid" for="message">Pesan:</label> 
+                        <textarea rows="8" cols="64">Ketik di sini</textarea>
+                    <div>
+                    <button type="submit">Submit</button>
+                </form>
                 
                 <!-- Result Form -->
                 <div></div>
@@ -89,6 +107,8 @@
     <footer>
         <p>Made by Salsabila@2024</p>
     </footer>
+
+    <script src="js\script.js"></script>
 </body>
 
 </html>

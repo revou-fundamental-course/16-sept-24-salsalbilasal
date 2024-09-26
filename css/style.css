@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.inline {
+    display: inline;
+}
+
 nav {
     display: flex;
 }
@@ -20,14 +24,14 @@ nav>a {
 .logo-icon {
     height: 50px;
     width: 50px;
-    background-image: url(../assets/logo.png.png);
+    background-image: url(../assets/logo.png);
     background-size: cover;
     background-position: center;
     border-radius: 50px;
 }
 
 .photo-banner {
-    background-image: url(../assets/logo.png.png);
+    background-image: url(../assets/logo.png);
     background-position: center;
     background-size: cover;
     height: 480px;
@@ -36,7 +40,7 @@ nav>a {
 .profile-icon {
     height: 50px;
     width: 50px;
-    background-image: url(../assets/logo.png.png);
+    background-image: url(../assets/logo.png);
     background-size: cover;
     background-position: center;
     border-radius: 50px;
@@ -51,4 +55,8 @@ nav>a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.grid {
+    display: grid;
 }
